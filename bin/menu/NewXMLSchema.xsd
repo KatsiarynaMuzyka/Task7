@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/NewXMLSchema"
+	xmlns:tns="http://www.example.org/NewXMLSchema" elementFormDefault="qualified">
+
+
+	<element name="menu">
+		<complexType>
+			<sequence>
+				<element name="food" type="tns:food" minOccurs="0"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+
+	<complexType name="food">
+		<sequence>
+			<element name="photo" type="anyURI" />
+			<element name="title" type="string" />
+			<element name="description" type="string" />
+			<element name="portion" type="string" />
+			<element name="price" type="int" />
+		</sequence>
+		<attribute name="sectionName" use="required">
+			<simpleType>
+				<restriction base="string">
+					<enumeration value="coldAppetizers"></enumeration>
+					<enumeration value="hotAppetizers"></enumeration>
+					<enumeration value="breakfasts"></enumeration>
+					<enumeration value="salads"></enumeration>
+					<enumeration value="soups"></enumeration>
+					<enumeration value="fishDishes"></enumeration>
+					<enumeration value="meatDishes"></enumeration>
+					<enumeration value="sideDishes"></enumeration>
+					<enumeration value="grills"></enumeration>
+					<enumeration value="dishesFromTheChef"></enumeration>
+					<enumeration value="attachment"></enumeration>
+					<enumeration value="desserts"></enumeration>
+				</restriction>
+			</simpleType>
+		</attribute>
+	</complexType>
+
+</schema>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:menu xmlns:tns="http://www.example.org/NewXMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/NewXMLSchema NewXMLSchema.xsd ">
+
+	<tns:food sectionName="coldAppetizers">
+		<tns:photo>fish_plate.jpg</tns:photo>
+		<tns:title>Ассорти рыбное</tns:title>
+		<tns:description>Слабосольная форель, сёмга</tns:description>
+		<tns:portion>100/20/15</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="coldAppetizers">
+		<tns:photo>tartlets_with_caviar.jpg</tns:photo>
+		<tns:title>Тарталетки с красной икрой</tns:title>
+		<tns:description>Тфрталетки с красной икрой</tns:description>
+		<tns:portion>60/50</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="coldAppetizers">
+		<tns:photo>snack_a-la_rus.jpg</tns:photo>
+		<tns:title>Закуска по-русски</tns:title>
+		<tns:description>Кусочки атлантической сельди с отварным картофелем,
+						луком, лимоном и зеленью</tns:description>
+		<tns:portion>70/50/2/10</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="coldAppetizers">
+		<tns:photo>assorted_eggplant.jpg</tns:photo>
+		<tns:title>Ассорти баклажаны</tns:title>
+		<tns:description>Жареные баклажаны с помидорами, с чесноком или с орехами</tns:description>
+		<tns:portion>100/5</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="coldAppetizers">
+		<tns:photo>grandma's_treats.jpg</tns:photo>
+		<tns:title>Бабушкины угощения</tns:title>
+		<tns:description>Ассорти из маринованных грибов</tns:description>
+		<tns:portion>120/20/10</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="coldAppetizers">
+		<tns:photo>greens.jpg</tns:photo>
+		<tns:title>Зелень</tns:title>
+		<tns:description>Кинза, лук, петрушка, укроп, базилик</tns:description>
+		<tns:portion>30</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="hotAppetizers">
+		<tns:photo>lobio_with_mushrooms.jpg</tns:photo>
+		<tns:title>Лобио с шампиньонами</tns:title>
+		<tns:description>Фасоль с шампиньонами и грецким орехом</tns:description>
+		<tns:portion>150/5</tns:portion>
+		<tns:price>105</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="hotAppetizers">
+		<tns:photo>julienne.jpg</tns:photo>
+		<tns:title>Жульен</tns:title>
+		<tns:description>Жульен с курицей</tns:description>
+		<tns:portion>120/1</tns:portion>
+		<tns:price>145</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="hotAppetizers">
+		<tns:photo>surprise.jpg</tns:photo>
+		<tns:title>Сюрприз</tns:title>
+		<tns:description></tns:description>
+		<tns:portion>1 piece</tns:portion>
+		<tns:price>260</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="hotAppetizers">
+		<tns:photo>shrimps.jpg</tns:photo>
+		<tns:title>Креветки</tns:title>
+		<tns:description>Креветки отварные</tns:description>
+		<tns:portion>120/30</tns:portion>
+		<tns:price>135</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="breakfasts">
+		<tns:photo>eggs.jpg</tns:photo>
+		<tns:title>Глазунья</tns:title>
+		<tns:description>2 яйца с ветчиной, сыром или помидорами</tns:description>
+		<tns:portion>150</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="breakfasts">
+		<tns:photo>omlette.jpg</tns:photo>
+		<tns:title>Омлет</tns:title>
+		<tns:description></tns:description>
+		<tns:portion>100</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+	<tns:food sectionName="breakfasts">
+		<tns:photo>pancakes_with_meat.jpg</tns:photo>
+		<tns:title>Блинчики с мясом</tns:title>
+		<tns:description>Жаренные блинчики с мясом</tns:description>
+		<tns:portion>150</tns:portion>
+		<tns:price>0</tns:price>
+	</tns:food>
+
+</tns:menu>
